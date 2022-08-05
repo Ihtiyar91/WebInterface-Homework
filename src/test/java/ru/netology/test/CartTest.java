@@ -14,7 +14,7 @@ public class CartTest {
     @Test
     void shouldСompletedBlank()  {
         open("http://localhost:9999");
-        $("[data-test-id=name] input").setValue("Иван Иван4534");
+        $("[data-test-id=name] input").setValue("Иван Иванов");
         $("[data-test-id=phone] input").setValue("+79378586100");
         $("[data-test-id=agreement]").click();
         $("[type=button]").click();
